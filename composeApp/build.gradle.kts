@@ -49,6 +49,7 @@ kotlin {
             implementation(libs.coil.compose)
             implementation(libs.coil.network.ktor)
             implementation(libs.ktor.client.core)
+            implementation(libs.androidx.nacigation.compose)
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)

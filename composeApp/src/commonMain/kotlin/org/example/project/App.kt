@@ -6,6 +6,7 @@ import coil3.annotation.ExperimentalCoilApi
 import coil3.compose.setSingletonImageLoaderFactory
 import coil3.request.crossfade
 import coil3.util.DebugLogger
+import org.example.project.ui.Navigation
 import org.example.project.ui.detail.DetailScreen
 import org.example.project.ui.home.HomeScreen
 import org.jetbrains.compose.ui.tooling.preview.Preview
@@ -20,6 +21,6 @@ fun App() {
             .logger(DebugLogger())
             .build()
     }
-    DetailScreen()
+    Navigation()
 }
 
